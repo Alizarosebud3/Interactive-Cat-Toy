@@ -96,6 +96,7 @@ uart = busio.UART(board.GP16, board.GP17, baudrate=9600)
 #      0 - Option 1 (base)
 #      1 - Option 2
 #      2 - Option 3
+#      3 - Option 4 (off)
 # Ex: O1 changes lighting to pattern option 2
 
 data_string_light = "00"
